@@ -24,4 +24,13 @@ class PersonResourceTest {
                 .then()
                 .statusCode(204);
     }
+
+    @Test
+    void testGetPersons() {
+        given()
+                .when()
+                .get("/person")
+                .then()
+                .statusCode(200);
+    }
 }

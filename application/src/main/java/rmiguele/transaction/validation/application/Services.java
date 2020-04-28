@@ -1,14 +1,17 @@
 package rmiguele.transaction.validation.application;
 
 import io.quarkus.arc.DefaultBean;
+import rmiguele.transaction.validation.repository.PersonRepository;
 import rmiguele.transaction.validation.repository.TransactionRepository;
 import rmiguele.transaction.validation.repository.ValidationRepository;
 import rmiguele.transaction.validation.service.EventSender;
+import rmiguele.transaction.validation.service.PersonService;
 import rmiguele.transaction.validation.service.RestrictedListValidationService;
 import rmiguele.transaction.validation.service.TransactionService;
 import rmiguele.transaction.validation.service.ValidateCreditCardTransactionService;
 import rmiguele.transaction.validation.service.ValidateTransactionService;
 import rmiguele.transaction.validation.service.ValidationService;
+import rmiguele.transaction.validation.service.impl.PersonServiceImpl;
 import rmiguele.transaction.validation.service.impl.RestrictedListValidationServiceImpl;
 import rmiguele.transaction.validation.service.impl.TransactionServiceImpl;
 import rmiguele.transaction.validation.service.impl.ValidateCreditCardTransactionServiceImpl;
@@ -53,5 +56,12 @@ class Services {
     @DefaultBean
     TransactionService transactionService(EventSender eventSender, TransactionRepository transactionRepository) {
         return new TransactionServiceImpl(eventSender::send, transactionRepository);
+    }
+
+    @ApplicationScoped
+    @Produces
+    @DefaultBean
+    PersonService transactionService(EventSender eventSender, PersonRepository personRepository) {
+        return new PersonServiceImpl(eventSender::send, personRepository);
     }
 }

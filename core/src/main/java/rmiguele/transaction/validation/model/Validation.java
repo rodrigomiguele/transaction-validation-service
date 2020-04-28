@@ -4,6 +4,7 @@ import dev.morphia.annotations.Entity;
 import dev.morphia.annotations.Id;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 public class Validation implements Serializable {
@@ -16,6 +17,8 @@ public class Validation implements Serializable {
     private ValidationType type;
 
     private String message;
+
+    private Date date = new Date();
 
     public String getCode() {
         return code;
@@ -47,5 +50,13 @@ public class Validation implements Serializable {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 }

@@ -1,3 +1,4 @@
 rootProject.name = 'transaction-validation-service'
 include 'core'
+include 'events'
 include 'application'

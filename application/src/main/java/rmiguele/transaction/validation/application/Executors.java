@@ -1,11 +1,13 @@
 package rmiguele.transaction.validation.application;
 
 import io.quarkus.arc.DefaultBean;
+import rmiguele.transaction.validation.command.CreatePersonCommand;
 import rmiguele.transaction.validation.command.CreateTransactionCommand;
 import rmiguele.transaction.validation.command.CreateValidationCommand;
 import rmiguele.transaction.validation.command.RestrictedListValidationCommand;
 import rmiguele.transaction.validation.command.ValidateCreditCardTransactionCommand;
 import rmiguele.transaction.validation.command.ValidateTransactionCommand;
+import rmiguele.transaction.validation.command.executor.CreatePersonCommandExecutor;
 import rmiguele.transaction.validation.command.executor.CreateTransactionCommandExecutor;
 import rmiguele.transaction.validation.command.executor.CreateValidationCommandExecutor;
 import rmiguele.transaction.validation.command.executor.Executor;
@@ -58,5 +60,12 @@ public class Executors {
     @DefaultBean
     Executor<ValidateTransactionCommand> validateTransactionCommandExecutor(ValidateCreditCardTransactionService validateCreditCardTransactionService, RestrictedListValidationService restrictedListValidationService) {
         return new ValidateTransactionCommandExecutor(validateCreditCardTransactionService, restrictedListValidationService);
+    }
+
+    @ApplicationScoped
+    @Produces
+    @DefaultBean
+    Executor<CreatePersonCommand> createPersonCommandExecutor(PersonRepository personRepository) {
+        return new CreatePersonCommandExecutor(personRepository);
     }
 }

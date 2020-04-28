@@ -8,7 +8,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import rmiguele.transaction.validation.command.CreatePersonCommand;
 import rmiguele.transaction.validation.command.executor.Executor;
 import rmiguele.transaction.validation.model.PersonSituation;
+import rmiguele.transaction.validation.repository.PersonRepository;
 
+import static org.mockito.Mockito.only;
 import static org.mockito.Mockito.verify;
 
 @ExtendWith(MockitoExtension.class)
@@ -17,11 +19,14 @@ class PersonServiceImplTest {
     @Mock
     Executor<CreatePersonCommand> createPersonCommandExecutor;
 
+    @Mock
+    PersonRepository personRepository;
+
     PersonServiceImpl personService;
 
     @BeforeEach
-    void setup(){
-        personService = new PersonServiceImpl(createPersonCommandExecutor);
+    void setup() {
+        personService = new PersonServiceImpl(createPersonCommandExecutor, personRepository);
     }
 
     @Test
@@ -33,5 +38,11 @@ class PersonServiceImplTest {
         personService.createPerson(command);
 
         verify(createPersonCommandExecutor).execute(command);
+    }
+
+    @Test
+    void getPersons() {
+        personService.getPersons();
+        verify(personRepository, only()).findAll();
     }
 }

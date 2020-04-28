@@ -1,6 +1,7 @@
 package rmiguele.transaction.validation.repository.impl;
 
 import com.mongodb.MongoClient;
+import dev.morphia.query.FindOptions;
 import dev.morphia.query.Sort;
 import rmiguele.transaction.validation.model.Transaction;
 import rmiguele.transaction.validation.model.TransactionType;
@@ -19,6 +20,10 @@ public class TransactionRepositoryImpl extends BaseRepositoryImpl<String, Transa
         query.field("type").equal(transactionType);
         query.field("senderCode").equal(transactionSenderCode);
         query.order(Sort.descending("date"));
-        return Optional.ofNullable(query.first());
+        var transactions = query.find(new FindOptions().limit(2)).toList();
+        if (transactions.size() == 2) {
+            return Optional.of(transactions.get(1));
+        }
+        return Optional.empty();
     }
 }

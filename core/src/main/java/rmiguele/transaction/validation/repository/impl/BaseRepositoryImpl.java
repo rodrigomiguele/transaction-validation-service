@@ -24,7 +24,7 @@ public abstract class BaseRepositoryImpl<K extends Serializable, T extends Seria
 
     private final Datastore datastore;
 
-    BaseRepositoryImpl(Class<T> clazz, MongoClient mongoClient) {
+    public BaseRepositoryImpl(Class<T> clazz, MongoClient mongoClient) {
         this.clazz = clazz;
         var morphia = new Morphia();
         morphia.map(clazz);

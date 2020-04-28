@@ -1,0 +1,16 @@
+dependencies {
+    implementation(project(":core"))
+    implementation("org.mongodb:mongo-java-driver:${mongodbDriverVersion}")
+    implementation("dev.morphia.morphia:core:${morphiaVersion}")
+
+    testImplementation("org.junit.jupiter:junit-jupiter:${junitVersion}")
+    testImplementation ("org.mockito:mockito-core:${mockitoVersion}")
+    testImplementation ("org.mockito:mockito-junit-jupiter:${mockitoVersion}")
+}
+
+tasks.test {
+    useJUnitPlatform()
+    testLogging {
+        events("passed", "skipped", "failed")
+    }
+}

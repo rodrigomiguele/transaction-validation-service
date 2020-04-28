@@ -7,6 +7,8 @@
       <module name="transaction-validation-service.application.test" target="11" />
       <module name="transaction-validation-service.core.main" target="11" />
       <module name="transaction-validation-service.core.test" target="11" />
+      <module name="transaction-validation-service.events.main" target="11" />
+      <module name="transaction-validation-service.events.test" target="11" />
       <module name="transaction-validation-service.main" target="11" />
       <module name="transaction-validation-service.test" target="11" />
     </bytecodeTargetLevel>

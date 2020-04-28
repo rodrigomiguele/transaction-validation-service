@@ -2,6 +2,8 @@ package rmiguele.transaction.validation.application;
 
 import com.mongodb.MongoClient;
 import io.quarkus.arc.DefaultBean;
+import rmiguele.transaction.validation.event.repository.EventRepository;
+import rmiguele.transaction.validation.event.repository.impl.EventRepositoryImpl;
 import rmiguele.transaction.validation.repository.PersonRepository;
 import rmiguele.transaction.validation.repository.TransactionRepository;
 import rmiguele.transaction.validation.repository.ValidationRepository;
@@ -33,5 +35,12 @@ class Repositories {
     @DefaultBean
     PersonRepository personRepository(MongoClient mongoClient) {
         return new PersonRepositoryImpl(mongoClient);
+    }
+
+    @ApplicationScoped
+    @Produces
+    @DefaultBean
+    EventRepository eventRepository(MongoClient mongoClient) {
+        return new EventRepositoryImpl(mongoClient);
     }
 }

@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.iml" filepath="$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.main.iml" filepath="$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.test.iml" filepath="$PROJECT_DIR$/.idea/modules/events/transaction-validation-service.events.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-validation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-validation-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-validation-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-validation-service.test.iml" />
     </modules>

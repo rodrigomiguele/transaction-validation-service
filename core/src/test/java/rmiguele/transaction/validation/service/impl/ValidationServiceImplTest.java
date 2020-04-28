@@ -1,13 +1,12 @@
 package rmiguele.transaction.validation.service.impl;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import rmiguele.transaction.validation.command.CreateValidationCommand;
+import rmiguele.transaction.validation.command.executor.Executor;
 import rmiguele.transaction.validation.model.Validation;
 import rmiguele.transaction.validation.model.ValidationType;
 import rmiguele.transaction.validation.repository.ValidationRepository;
@@ -19,16 +18,20 @@ import static org.mockito.Mockito.only;
 import static org.mockito.Mockito.verify;
 
 @ExtendWith(MockitoExtension.class)
-class ViolationServiceImplTest {
+class ValidationServiceImplTest {
+
+    @Mock
+    Executor<CreateValidationCommand> createValidationCommandExecutor;
 
     @Mock
     ValidationRepository validationRepository;
 
-    @InjectMocks
-    ValidationServiceImpl validationService;
+    private ValidationServiceImpl validationService;
 
-    @Captor
-    ArgumentCaptor<Validation> argumentCaptor;
+    @BeforeEach
+    void setup() {
+        this.validationService = new ValidationServiceImpl(createValidationCommandExecutor, validationRepository);
+    }
 
     @Test
     void saveValidation() {
@@ -38,11 +41,7 @@ class ViolationServiceImplTest {
         command.setMessage("Message");
         validationService.createValidation(command);
 
-        verify(validationRepository, only()).save(argumentCaptor.capture());
-        var value = argumentCaptor.getValue();
-        assertEquals("transaction1", value.getTransactionCode());
-        assertEquals(ValidationType.CREDIT_CARD_VIOLATION, value.getType());
-        assertEquals("Message", value.getMessage());
+        verify(createValidationCommandExecutor, only()).execute(command);
     }
 
     @Test

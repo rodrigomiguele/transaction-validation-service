@@ -2,8 +2,10 @@ package rmiguele.transaction.validation.service;
 
 import rmiguele.transaction.validation.command.RestrictedListValidationCommand;
 
-public interface RestrictedListValidationService {
+public interface RestrictedListValidationService extends BaseExecutorService<RestrictedListValidationCommand> {
 
-    void validate(RestrictedListValidationCommand command);
+    default void validate(RestrictedListValidationCommand command) {
+        executor().execute(command);
+    }
 
 }

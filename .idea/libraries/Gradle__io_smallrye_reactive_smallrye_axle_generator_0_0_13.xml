@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.reactive:smallrye-axle-generator:0.0.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-axle-generator/0.0.13/55a00556340d4a7a1eb9a1a9854a01b4ca9d3d3a/smallrye-axle-generator-0.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-axle-generator/0.0.13/c73de7f6c09d47c41a4d34d3580cfc627e6795d4/smallrye-axle-generator-0.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -5,9 +5,11 @@ import rmiguele.transaction.validation.model.Validation;
 
 import java.util.List;
 
-public interface ValidationService {
+public interface ValidationService extends BaseExecutorService<CreateValidationCommand> {
 
-    void createValidation(CreateValidationCommand command);
+    default void createValidation(CreateValidationCommand command) {
+        executor().execute(command);
+    }
 
     List<Validation> getValidations();
 

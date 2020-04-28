@@ -1,27 +1,25 @@
 package rmiguele.transaction.validation.service.impl;
 
 import rmiguele.transaction.validation.command.CreateValidationCommand;
+import rmiguele.transaction.validation.command.executor.CreateValidationCommandExecutor;
+import rmiguele.transaction.validation.command.executor.Executor;
 import rmiguele.transaction.validation.model.Validation;
 import rmiguele.transaction.validation.repository.ValidationRepository;
 import rmiguele.transaction.validation.service.ValidationService;
 
 import java.util.List;
 
-public class ValidationServiceImpl implements ValidationService {
+public class ValidationServiceImpl extends BaseExecutorServiceImpl<CreateValidationCommand> implements ValidationService {
 
     private final ValidationRepository validationRepository;
 
     public ValidationServiceImpl(ValidationRepository validationRepository) {
-        this.validationRepository = validationRepository;
+        this(new CreateValidationCommandExecutor(validationRepository), validationRepository);
     }
 
-    @Override
-    public void createValidation(CreateValidationCommand command) {
-        var validation = new Validation();
-        validation.setTransactionCode(command.getTransactionCode());
-        validation.setType(command.getValidationType());
-        validation.setMessage(command.getMessage());
-        validationRepository.save(validation);
+    public ValidationServiceImpl(Executor<CreateValidationCommand> commandExecutor, ValidationRepository validationRepository) {
+        super(commandExecutor);
+        this.validationRepository = validationRepository;
     }
 
     @Override

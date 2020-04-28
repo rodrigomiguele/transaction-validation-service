@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":application:main" external.linked.project.path="$MODULE_DIR$/../../../application" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="rmiguele" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../../application/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../application/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../application/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="transaction-validation-service.core.main" />
+    <orderEntry type="library" name="Gradle: dev.morphia.morphia:core:1.5.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongo-java-driver:3.10.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-jackson:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.thoughtworks.proxytoys:proxytoys:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx-http:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-server-common:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-jackson:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-vertx-core:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-resteasy-common:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-mutiny:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-smallrye-context-propagation:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-arc:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-netty:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-core:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.slf4j:slf4j-jboss-logging:1.2.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.29" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-axle-core:0.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-axle-generator:0.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-rx-java2:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-core:0.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-web:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-rx-gen:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:vertx-mutiny-generator:0.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:0.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-web-common:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-auth-common:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-core:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.45.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.resteasy:resteasy-jackson2-provider:4.5.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.fge:json-patch:1.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.fge:jackson-coreutils:1.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.resteasy:resteasy-jaxb-provider:4.5.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.resteasy:resteasy-core:4.5.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.resteasy:resteasy-core-spi:4.5.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-codegen:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-bridge-common:3.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus:quarkus-development-mode-spi:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus.security:quarkus-security:1.0.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-context-propagation:1.0.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.threads:jboss-threads:3.0.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.quarkus.arc:arc:1.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.config:smallrye-config-common:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logmanager:jboss-logmanager-embedded:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:27.0.1-jre" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.activation:jakarta.activation:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny-context-propagation:0.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:mutiny:0.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-streams-operators:1.0.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye.reactive:smallrye-reactive-converter-api:1.0.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.2.18" level="project" />
+    <orderEntry type="library" name="Gradle: io.smallrye:smallrye-context-propagation-api:1.0.11" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.inject:jakarta.inject-api:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.interceptor:jakarta.interceptor-api:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.transaction:jakarta.transaction-api:1.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.config:microprofile-config-api:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.3-b02" level="project" />
+    <orderEntry type="library" name="Gradle: org.graalvm.sdk:graal-sdk:19.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging-annotations:2.1.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.wildfly.common:wildfly-common:1.5.4.Final-format-001" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-core:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mvel:mvel2:2.4.4.Final" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.el:jakarta.el-api:3.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:2.3.3-b02" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:3.0.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.fge:msg-simple:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.fge:btf:1.2" level="project" />
+  </component>
+</module>

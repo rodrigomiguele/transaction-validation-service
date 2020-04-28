@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.reactive:smallrye-reactive-streams-operators:1.0.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-streams-operators/1.0.10/805d0dbd945c353d3406e5f64ea60e8e708e4090/smallrye-reactive-streams-operators-1.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-reactive-streams-operators/1.0.10/f61817b85ab8c87ac61b2b98426b84d85fdfce70/smallrye-reactive-streams-operators-1.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

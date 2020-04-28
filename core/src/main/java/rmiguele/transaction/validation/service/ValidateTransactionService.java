@@ -2,8 +2,10 @@ package rmiguele.transaction.validation.service;
 
 import rmiguele.transaction.validation.command.ValidateTransactionCommand;
 
-public interface ValidateTransactionService {
+public interface ValidateTransactionService extends BaseExecutorService<ValidateTransactionCommand>{
 
-    void validate(ValidateTransactionCommand command);
+    default void validate(ValidateTransactionCommand command){
+        executor().execute(command);
+    }
 
 }

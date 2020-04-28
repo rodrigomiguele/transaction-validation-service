@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/transaction-validation-service.iml" filepath="$PROJECT_DIR$/.idea/transaction-validation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.iml" filepath="$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.native-test.iml" filepath="$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.native-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.test.iml" filepath="$PROJECT_DIR$/.idea/modules/application/transaction-validation-service.application.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transaction-validation-service.core.test.iml" />

@@ -1,0 +1,15 @@
+plugins {
+    id "io.quarkus" version "1.3.2.Final"
+}
+
+dependencies {
+    implementation(project(":core"))
+    implementation("org.mongodb:mongo-java-driver:${mongodbDriverVersion}")
+    implementation("dev.morphia.morphia:core:${morphiaVersion}")
+    implementation(enforcedPlatform("io.quarkus:quarkus-bom:${quarkusVersion}"))
+    implementation("io.quarkus:quarkus-vertx")
+    implementation("io.quarkus:quarkus-resteasy")
+    implementation("io.quarkus:quarkus-resteasy-jackson")
+    testImplementation("io.quarkus:quarkus-junit5")
+    testImplementation("io.rest-assured:rest-assured")
+}

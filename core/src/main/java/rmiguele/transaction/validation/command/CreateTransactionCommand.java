@@ -4,7 +4,7 @@ import rmiguele.transaction.validation.model.TransactionType;
 
 import java.util.Date;
 
-public class CreateTransactionCommand implements Command{
+public class CreateTransactionCommand implements Command {
 
     private String transactionCode;
 

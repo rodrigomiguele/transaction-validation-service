@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="transaction-validation-service.application.main" target="11" />
+      <module name="transaction-validation-service.application.native-test" target="11" />
+      <module name="transaction-validation-service.application.test" target="11" />
       <module name="transaction-validation-service.core.main" target="11" />
       <module name="transaction-validation-service.core.test" target="11" />
       <module name="transaction-validation-service.main" target="11" />

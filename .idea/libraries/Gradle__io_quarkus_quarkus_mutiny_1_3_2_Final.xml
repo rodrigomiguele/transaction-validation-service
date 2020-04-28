@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-mutiny:1.3.2.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-mutiny/1.3.2.Final/3148c20169334b228297f8561321990a2494bf2e/quarkus-mutiny-1.3.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-mutiny/1.3.2.Final/48db9f62ba07e3fa7788b25dff48a5cf864a4ca/quarkus-mutiny-1.3.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-undertow-runtime:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-undertow-runtime/0.11.0/744cf9a3410a8b83c859b70ae7c3290f19f39150/quarkus-undertow-runtime-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-undertow-runtime/0.11.0/1ed40a30a09361ec9c556a774edbc302d1f2ce85/quarkus-undertow-runtime-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

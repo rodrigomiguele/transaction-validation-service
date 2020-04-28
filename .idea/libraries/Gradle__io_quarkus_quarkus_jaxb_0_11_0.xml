@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-jaxb:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-jaxb/0.11.0/f51037d5e5c7003bd99f34ea3cb141ff981ffd24/quarkus-jaxb-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-jaxb/0.11.0/cf3ed7b733807f407dee4651781f9abf86e1c9b5/quarkus-jaxb-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-netty:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-netty/0.11.0/4f1c559a02ba8b5d0e722ccf56b347d12d9e6534/quarkus-netty-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-netty/0.11.0/c24ded9c8bbd853799fb265a74766f7dd2e31607/quarkus-netty-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

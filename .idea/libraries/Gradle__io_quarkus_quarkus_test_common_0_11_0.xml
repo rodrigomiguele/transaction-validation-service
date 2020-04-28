@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-test-common:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-test-common/0.11.0/5a4eb80d4adf29361d98e2341af58cb63e42dd41/quarkus-test-common-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-test-common/0.11.0/ccfa146c30f00dbce02144bf4f4005f1da3e7d5a/quarkus-test-common-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

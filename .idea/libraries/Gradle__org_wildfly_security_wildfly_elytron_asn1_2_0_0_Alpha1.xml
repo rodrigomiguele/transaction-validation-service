@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-asn1/2.0.0.Alpha1/9e8a9f5b0dad12dea17eff877c3ea38592b7dcb/wildfly-elytron-asn1-2.0.0.Alpha1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-asn1/2.0.0.Alpha1/b2e8a5b646f2fb2a885a9062ae96a4f8abf990fe/wildfly-elytron-asn1-2.0.0.Alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.microprofile.config:microprofile-config-api:1.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.config/microprofile-config-api/1.3/5813ff0cf78ee03b483887ebf63084ae195f332f/microprofile-config-api-1.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.microprofile.config/microprofile-config-api/1.3/c140a14071aed1f88245cf9e27cb4cddb113f709/microprofile-config-api-1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

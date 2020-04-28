@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.oracle.substratevm:svm:1.0.0-rc12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oracle.substratevm/svm/1.0.0-rc12/a75e9607d6571d305644de80b16a340b6cc8b746/svm-1.0.0-rc12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oracle.substratevm/svm/1.0.0-rc12/bb5c0c14ca76e646a6d904b46a3a770adf1e4e1d/svm-1.0.0-rc12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

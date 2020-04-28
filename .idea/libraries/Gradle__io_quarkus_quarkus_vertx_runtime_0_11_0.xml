@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-vertx-runtime:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-runtime/0.11.0/79d5fcc585008b344c98aa74da8be66f678e624f/quarkus-vertx-runtime-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-vertx-runtime/0.11.0/e35bf9d964503b34fec7a81002dc9deb24d02dc6/quarkus-vertx-runtime-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

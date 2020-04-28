@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-auth/2.0.0.Alpha1/cc9773f93d33c9237676e6ca2e70e9bc28fec858/wildfly-elytron-auth-2.0.0.Alpha1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-auth/2.0.0.Alpha1/41f39c701a61e0cf99b35fa3535dd5d296cba645/wildfly-elytron-auth-2.0.0.Alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

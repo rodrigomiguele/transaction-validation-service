@@ -29,7 +29,6 @@ public class TransactionResource {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
     public void createTransaction(CreateTransactionVO vo) {
         var createTransactionCommand = new CreateTransactionCommand();
         createTransactionCommand.setTransactionCode(vo.getTransactionCode());

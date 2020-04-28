@@ -18,7 +18,7 @@ public class Validation implements Serializable {
 
     private String message;
 
-    private Date date = new Date();
+    private Date date;
 
     public String getCode() {
         return code;

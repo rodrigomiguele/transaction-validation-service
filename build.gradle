@@ -2,8 +2,8 @@ allprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
 
-    sourceCompatibility = 1.11
-    targetCompatibility = 1.11
+    sourceCompatibility = 1.13
+    targetCompatibility = 1.13
 
     group = 'rmiguele'
 

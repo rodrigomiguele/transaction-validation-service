@@ -46,6 +46,6 @@ public class ValidateCreditCardTransactionCommand implements Command {
 
     @Override
     public CommandType getCommandType() {
-        return CommandType.VALIDATE_CREDIT_CART_TRANSACTION;
+        return CommandType.VALIDATE_CREDIT_CARD_TRANSACTION;
     }
 }

@@ -7,7 +7,7 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 @ApplicationScoped
-public class EventProducer {
+public class EventSender {
 
     @Inject
     EventBus eventBus;

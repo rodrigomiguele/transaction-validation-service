@@ -6,3 +6,10 @@ dependencies {
     testImplementation ("org.mockito:mockito-core:${mockitoVersion}")
     testImplementation ("org.mockito:mockito-junit-jupiter:${mockitoVersion}")
 }
+
+tasks.test {
+    useJUnitPlatform()
+    testLogging {
+        events("passed", "skipped", "failed")
+    }
+}

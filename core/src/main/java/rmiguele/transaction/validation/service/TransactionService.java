@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TransactionService {
 
-    Transaction createTransaction(CreateTransactionCommand command);
+    void createTransaction(CreateTransactionCommand command);
 
     List<Transaction> getTransactions();
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/core/src/main/java/rmiguele/transaction/validation/service/impl/RestrictedListValidationServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/main/java/rmiguele/transaction/validation/service/impl/ValidateCreditCardTransactionServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/test/java/rmiguele/transaction/validation/service/impl/RestrictedListValidationServiceImplTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/test/java/rmiguele/transaction/validation/service/impl/TransactionServiceImplTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/test/java/rmiguele/transaction/validation/service/impl/ValidateCreditCardTransactionServiceImplTest.java" charset="UTF-8" />
+  </component>
+</project>

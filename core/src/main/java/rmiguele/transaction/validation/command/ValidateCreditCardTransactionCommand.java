@@ -2,7 +2,7 @@ package rmiguele.transaction.validation.command;
 
 import java.util.Date;
 
-public class ValidateCreditCardTransactionCommand {
+public class ValidateCreditCardTransactionCommand implements Command {
 
     private String transactionCode;
 
@@ -42,5 +42,10 @@ public class ValidateCreditCardTransactionCommand {
 
     public void setTransactionDate(Date transactionDate) {
         this.transactionDate = transactionDate;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.VALIDATE_CREDIT_CART_TRANSACTION;
     }
 }

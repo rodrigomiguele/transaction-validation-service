@@ -4,7 +4,7 @@ import rmiguele.transaction.validation.model.TransactionType;
 
 import java.util.Date;
 
-public class CreateTransactionCommand {
+public class CreateTransactionCommand implements Command{
 
     private String transactionCode;
 
@@ -64,5 +64,10 @@ public class CreateTransactionCommand {
 
     public void setTransactionReceiverCode(String transactionReceiverCode) {
         this.transactionReceiverCode = transactionReceiverCode;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.CREATE_TRANSACTION;
     }
 }

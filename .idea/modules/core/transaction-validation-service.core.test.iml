@@ -3,7 +3,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output-test url="file://$MODULE_DIR$/../../../core/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../core/src/test" />
+    <content url="file://$MODULE_DIR$/../../../core/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core/src/test/java" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="transaction-validation-service.core.main" />
@@ -17,8 +19,8 @@
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.10.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.10.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />

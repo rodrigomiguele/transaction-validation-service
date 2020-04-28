@@ -1,6 +1,6 @@
 package rmiguele.transaction.validation.command;
 
-public class RestrictedListValidationCommand {
+public class RestrictedListValidationCommand implements Command {
 
     private String transactionCode;
 
@@ -30,5 +30,10 @@ public class RestrictedListValidationCommand {
 
     public void setTransactionReceiverCode(String transactionReceiverCode) {
         this.transactionReceiverCode = transactionReceiverCode;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.RESTRICTED_LIST_VALIDATION;
     }
 }

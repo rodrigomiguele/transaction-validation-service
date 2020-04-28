@@ -2,7 +2,7 @@ package rmiguele.transaction.validation.command;
 
 import rmiguele.transaction.validation.model.PersonSituation;
 
-public class CreatePersonCommand {
+public class CreatePersonCommand implements Command {
 
     private String personCode;
 
@@ -22,5 +22,10 @@ public class CreatePersonCommand {
 
     public void setPersonSituation(PersonSituation personSituation) {
         this.personSituation = personSituation;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.CREATE_PERSON;
     }
 }

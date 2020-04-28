@@ -1,12 +1,14 @@
 package rmiguele.transaction.validation.command;
 
+import rmiguele.transaction.validation.model.TransactionType;
+
 import java.util.Date;
 
-public class ValidateTransactionCommand {
+public class ValidateTransactionCommand implements Command {
 
     private String transactionCode;
 
-    private String transactionType;
+    private TransactionType transactionType;
 
     private Double transactionValue;
 
@@ -24,11 +26,11 @@ public class ValidateTransactionCommand {
         this.transactionCode = transactionCode;
     }
 
-    public String getTransactionType() {
+    public TransactionType getTransactionType() {
         return transactionType;
     }
 
-    public void setTransactionType(String transactionType) {
+    public void setTransactionType(TransactionType transactionType) {
         this.transactionType = transactionType;
     }
 
@@ -62,5 +64,10 @@ public class ValidateTransactionCommand {
 
     public void setTransactionReceiverCode(String transactionReceiverCode) {
         this.transactionReceiverCode = transactionReceiverCode;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.VALIDATE_TRANSACTION;
     }
 }

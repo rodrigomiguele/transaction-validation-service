@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ValidationService {
 
-    Validation createValidation(CreateValidationCommand command);
+    void createValidation(CreateValidationCommand command);
 
     List<Validation> getValidations();
 

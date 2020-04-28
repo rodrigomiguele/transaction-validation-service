@@ -2,7 +2,7 @@ package rmiguele.transaction.validation.command;
 
 import rmiguele.transaction.validation.model.ValidationType;
 
-public class CreateValidationCommand {
+public class CreateValidationCommand implements Command{
 
     private String transactionCode;
 
@@ -32,5 +32,10 @@ public class CreateValidationCommand {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    @Override
+    public CommandType getCommandType() {
+        return CommandType.CREATE_VALIDATION;
     }
 }

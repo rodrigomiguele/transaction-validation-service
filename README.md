@@ -12,6 +12,14 @@ docker run --name mongodb -d mongo
 ./gradlew application:quarkusDev
 ```
 
+## Testes
+```shell script
+./gradlew core:test
+```
+```shell script
+./gradlew application:test
+```
+
 ## Validações
 As validações ocorrem toda vez que uma transação é recebida. Todo o processo de validação é assincrono, facilitando a escalabilidade da aplicação.
 - Para transações do tipo "CREDIT_CARD", executa validação conferindo se outra transação de mesmo valor não foi efetuada a menos de 5 minutos.

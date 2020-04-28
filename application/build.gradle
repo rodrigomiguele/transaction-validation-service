@@ -21,3 +21,5 @@ tasks.test {
         events("passed", "skipped", "failed")
     }
 }
+
+quarkusTestConfig.dependsOn compileTestJava

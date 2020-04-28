@@ -37,6 +37,7 @@ A API é utilizada para fins de testes e validações. Num cenário ideal, todos
 
 #### GET /event
 Recupera todos os eventos gerados pela aplicação.
+
 **Response** 200 OK
 ```json
 [

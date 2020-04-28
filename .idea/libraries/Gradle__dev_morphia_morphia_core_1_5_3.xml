@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.morphia.morphia:core:1.5.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Cannot resolve external dependency dev.morphia.morphia:core:1.5.3 because no repositories are defined." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.morphia.morphia/core/1.5.3/83b2e398fb38867b2c647b7775e8e1f2dc844a93/core-1.5.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.morphia.morphia/core/1.5.3/4874c3b63398d017ef75bbcb1e616487d9bc0a6b/core-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

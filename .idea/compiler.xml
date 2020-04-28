@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="transaction-validation-service.core.main" target="11" />
+      <module name="transaction-validation-service.core.test" target="11" />
+      <module name="transaction-validation-service.main" target="11" />
+      <module name="transaction-validation-service.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
